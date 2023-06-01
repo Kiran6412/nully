@@ -16,7 +16,7 @@ DATABASE_NAME = os.environ.get("DATABASE_NAME", "Dhggg")
 DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://ciros42580:omprtngslb@cluster0.phrmyvu.mongodb.net/?retryWrites=true&w=majority") 
 OWNER_ID =  int(os.environ.get("OWNER_ID", "5790359537")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
-ADMINS.append(Id Owned Id)
+ADMINS.append(5790359537)
 #  Optionnal variables
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001795283531")) 
 UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "popcornpanda") # For Force Subscription
